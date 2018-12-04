@@ -2,7 +2,7 @@
 
 > A dark, colorful, neat theme, resembling the sparkling colors of an opal, contrasted against an indigo-night editor background, with purple, cyan, orange-sherbet and pink syntax accents.
 
-[Screenshot](sample_syntax.png)
+![Screenshot](sample_syntax.png)
 
 ## Features
 
