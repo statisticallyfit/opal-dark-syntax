@@ -16,7 +16,7 @@
 
 ## Install
 
-Install using Atom
+![Install using Atom](https://atom.io/themes/opal-dark-syntax)
 
 1. Go to Atom -> Preferences...
 2. Then select the Install tab
