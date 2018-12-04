@@ -321,7 +321,7 @@ atom-text-editor .highlight.current-result ~ .highlight.selection .region {
 }
 
 atom-text-editor .bracket-matcher .region {
-  border-bottom: 3px solid @cyan; //changed was@green
+  border-bottom: 3px solid @orange; //changed was@green
   z-index: 100;
 }
 

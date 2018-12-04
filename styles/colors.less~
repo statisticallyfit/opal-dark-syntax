@@ -26,7 +26,7 @@
 @gray-violet: #5f78e8;
 @red: #ff5555;
 @string-yellow: #E6DB74; //string
-@yellow: #ffe563; //#ffe900;
+@yellow: #ffe900;
 @dark-yellow: #efdb40;
 @sandstone: #cfcfc2;
 
