@@ -1,24 +1,34 @@
-# Dracula for [Atom](https://atom.io)
+# Opal Dark Syntax for Atom
 
-> A dark theme for [Atom](https://atom.io).
+> A dark, colorful, neat theme, resembling the sparkling colors of an opal, contrasted against an indigo-night editor background, with purple, cyan, orange-sherbet and pink syntax accents.
 
-![Screenshot](https://draculatheme.com/assets/img/screenshots/atom.png)
+![Screenshot](https://github.com/statisticallyfit/opal-dark-syntax/sample_syntax.png?raw=true)
+
+## Features
+
+1. Keywords are light, dusty pink, avoiding confusion with a red color for errors.
+2. Functions are sherbet-orange and other keywords pepper the screen with yellow and green, mimicking the cheerful quality of an opal's facets.
+3. Number constants are light violet and bolded for visibility, while reflecting the ui base accent color.
+4. Class supporter keywords are light cyan, completing the soft opal effect.
+5. Indigo-themed autocomplete dropdown list with a lighter indigo accent for even selections.
+6. Very dark indigo editor background matches the dropdown and doesn't clash with the dark-gray panel colors.
+
 
 ## Install
 
-All instructions can be found at [draculatheme.com/atom](https://draculatheme.com/atom).
+Install using Atom
 
-## Related
+1. Go to Atom -> Preferences...
+2. Then select the Install tab
+3. Click the Themes button to the right of the search box
+4. Enter opal-dark-syntax in the search box.
 
-* [UI theme](https://github.com/dracula/atom-ui)
+#Team
 
-## Team
+Modified and maintained by [statisticallyfit](https://github.com/statisticallyfit/opal-dark-syntax/graphs/contributors).
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/atom/graphs/contributors).
+This theme is based off the Dracula Theme. Work from original creators is visible [here](https://github.com/dracula/atom/graphs/contributors).
 
-[![Jimmy Multani](https://avatars3.githubusercontent.com/u/1281284?v=3&s=70)](https://github.com/JimmyMultani) |
---- |
-[Jimmy Multani](https://github.com/JimmyMultani) |
 
 ## License
 
