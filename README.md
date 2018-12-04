@@ -2,7 +2,7 @@
 
 > A dark, colorful, neat theme, resembling the sparkling colors of an opal, contrasted against an indigo-night editor background, with purple, cyan, orange-sherbet and pink syntax accents.
 
-![Screenshot](https://github.com/statisticallyfit/opal-dark-syntax/sample_syntax.png?raw=true)
+![Screenshot](https://github.com/statisticallyfit/opal-dark-syntax/sample_syntax.png)
 
 ## Features
 
@@ -23,7 +23,7 @@ Install using Atom
 3. Click the Themes button to the right of the search box
 4. Enter opal-dark-syntax in the search box.
 
-#Team
+## Team
 
 Modified and maintained by [statisticallyfit](https://github.com/statisticallyfit/opal-dark-syntax/graphs/contributors).
 
