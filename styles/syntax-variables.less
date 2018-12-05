@@ -5,15 +5,19 @@
 
 // General colors
 @syntax-text-color: @very-light-gray;
-@syntax-cursor-color: @peacock-blue; //changed@white;
-@syntax-selection-color: lighten(@dark-gray, 10%);
-@syntax-selection-flash-color: @very-light-gray;
-@syntax-background-color: @very-dark-gray;
+@syntax-cursor-color: @white;
+@syntax-selection-color: lighten(@syntax-cursor-line, 5%); //changed lighten(@dark-gray, 10%);
+@syntax-selection-flash-color:  @very-light-gray;
+@syntax-background-color: @dark-indigo; //changed @very-dark-gray;
 
 // Guide colors
 @syntax-wrap-guide-color: @dark-gray;
-@syntax-indent-guide-color: @gray;
-@syntax-invisible-character-color: @gray;
+@syntax-indent-guide-color: @dark-gray-violet; //changed @gray;
+@syntax-invisible-character-color: @dark-gray-violet; //changed @gray
+//added below
+@syntax-bracket-matcher-color: @white;
+@syntax-cursor-line: fade(#383839, 50%); //#282a3a; //#323549;
+@syntax-transition-time: 400ms; //added from northem
 
 // For find and replace markers
 @syntax-result-marker-color: @light-gray;
@@ -21,12 +25,12 @@
 
 // Gutter colors
 @syntax-gutter-text-color: @very-light-gray;
-@syntax-gutter-text-color-selected: @syntax-gutter-text-color;
-@syntax-gutter-background-color: @dark-gray;
-@syntax-gutter-background-color-selected: @gray;
+@syntax-gutter-text-color-selected: @white; //lighten(@syntax-gutter-text-color, 80%);
+@syntax-gutter-background-color: darken(@indigo-dark-gray, 1%); //changed@dark-gray;
+@syntax-gutter-background-color-selected: lighten(@indigo-dark-gray, 15%); //changed @gray;
 
 // For git diff info. i.e. in the gutter
-@syntax-color-renamed: @blue;
-@syntax-color-added: @green;
-@syntax-color-modified: @orange;
-@syntax-color-removed: @red;
+@syntax-color-renamed: @cyan; //was blue changed ;
+@syntax-color-added: @spring-green; //changed @green
+@syntax-color-modified: @white; //changed @orange;
+@syntax-color-removed: @light-red; //changed @red
