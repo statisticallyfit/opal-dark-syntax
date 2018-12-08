@@ -11,7 +11,7 @@ atom-text-editor {
 	+----------+*/
 	.bracket-matcher .region {
 		border: 1px solid @syntax-bracket-matcher-color;
-		background-color: fade(@cyan, 20%); //darken(@cyan, 50%);
+		background-color: fade(@cyan, 27%); //darken(@cyan, 50%);
 		box-sizing: border-box;
 	}
 	.is-focused .cursor {
@@ -75,6 +75,7 @@ atom-text-editor {
 		padding-right: 0;
 		margin-right: 0;
 		border-right: 1px solid @dark-gray;
+
 		/*.line-number.git-line-modified,
 		.line-number.git-line-removed,
 		.line-number.git-line-added {
@@ -135,6 +136,8 @@ atom-text-editor {
 				color: @syntax-gutter-text-color-selected;
 				font-weight: bold;
 				background-color: @syntax-gutter-background-color-selected;
+				//border-right-color: @syntax-gutter-background-color-selected;
+				//border-right: @syntax-gutter-background-color-selected;
 			}
 
 			.icon-right {
